@@ -1,0 +1,38 @@
+.sidebar_nav {
+    position: fixed;
+    width: 65%;
+    height: 100%;
+    z-index: 200;
+    border-right: 1.5px solid white;
+    padding: 0 1rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.sidebar_nav.open {
+    transform: translateX(0)
+}
+
+.sidebar_nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    /* border: 1px solid black; */
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1.5px solid white;
+}
+
+.item:hover {
+    background-color: #0B97B3;
+    cursor: pointer;
+
+}
+
+.item a {
+    color: white;
+}

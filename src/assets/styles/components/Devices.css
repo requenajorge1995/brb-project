@@ -1,0 +1,9 @@
+.devices_wrapper {
+    margin: 0;
+    padding: rem;
+    justify-content: space-evenly;
+}
+
+.device_wrapper {
+    padding: .5rem
+}
